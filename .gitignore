@@ -1,0 +1,34 @@
+# Alexandrya project .gitignore
+
+# IA best practices (local only)
+ia/
+
+# Environment files
+web/.env.local
+web/.env.*.local
+
+# Dependencies
+**/node_modules/
+
+# Build output
+web/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.sw?
+
+# Template zip (already extracted)
+modernize-react-lite-main.zip
+
+# Mantis template
+mantis-free-react-admin-template-v2.2.0/
+
+# Theme references (local only)
+thema/
